@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheeet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="/style/style.css" />
+    <script
+      src="https://kit.fontawesome.com/f6f499792b.js"
+      crossorigin="anonymous"></script>
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <div class="con1">
+      <nav>
+        <div class="logo">portfolio<b>.</b></div>
+        <ul class="navItems">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="login.html">Contact Me</a></li>
+        </ul>
+        <div class="links">
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+      </nav>
+
+      <div class="wrapper">
+        <div class="cols cols0">
+          <span class="topline">Hello</span>
+          <h1>I'm a <span class="multiText"></span></h1>
+          <p>Get the Web Developer you need and the one you deserve</p>
+          <div class="btns">
+            <button>Download CV</button>
+            <button>Hire Me</button>
+          </div>
+        </div>
+        <div class="cols cols1">
+          <div class="back">
+            <img src="img.png" alt="Loading"/>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var type = new Typed(".multiText", {
+        strings: [
+          "Web Developer",
+          "Prompt Engineer",
+          "DevOps Engineer",
+          "Data Analyst",
+        ],
+        loop: true,
+        typeSpeed: 120,
+        backSpeed: 100,
+        backDelay: 1500,
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+  text-align: center;
+  color: #fff;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+
+.wrapper {
+  min-height: 100vh;
+  width: 100%;
+  background: url("pexels-daniel-absi-952670.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+img {
+  height: 300px;
+  width: 300px;
+  background: url("/pages/pexels-stephan-seeber-1261728.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  margin-top: 4em;
+  border: solid 2px #fff;
+}
+
+.script {
+  padding: 30px 100px;
+}
+
+article h1 {
+  font-size: 50px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+article h1:after {
+  content: "";
+  height: 5px;
+  width: 300px;
+  background-color: #fff;
+  display: block;
+  margin: auto;
+}
+
+article h1 a {
+  text-decoration: none;
+}
+
+blockquote {
+  font-family: sans-serif;
+  font-size: 20px;
+  margin-top: 2em;
+}
+
+article h5 {
+  text-transform: uppercase;
+  font-size: 28px;
+  margin-top: 2em;
+  letter-spacing: 1.5px;
+}
+
+article p {
+  font-size: 17px;
+}
