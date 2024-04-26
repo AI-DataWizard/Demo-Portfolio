@@ -23,7 +23,7 @@
 img {
   height: 300px;
   width: 300px;
-  background: url("/pages/pexels-stephan-seeber-1261728.jpg");
+  background: url("pexels-stephan-seeber-1261728.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
